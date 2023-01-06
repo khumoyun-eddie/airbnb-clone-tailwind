@@ -8,6 +8,7 @@ const MediumCard = ({ img, title }) => {
           src={img}
           layout = 'fill'
           className="rounded-xl"
+          alt={title}
         />
       </div>
       <h3 className="text-2xl mt-3">{title}</h3>
